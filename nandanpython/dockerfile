@@ -1,0 +1,3 @@
+FROM python:3
+ADD pl.py .
+CMD ["python","./pl.py"]
